@@ -31,4 +31,7 @@ public void setPosition( double x, double y){
   myCenterX =x; 
  myCenterY = y ;
  }
+public double getX(){return myCenterX;}
+public double getY(){return myCenterY;}
+
 }
