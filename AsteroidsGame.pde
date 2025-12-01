@@ -8,7 +8,7 @@ public void setup(){
 }
  rorator = new Spaceship();
   
-  for(int nI = 0; nI < 15; nI++){
+  for(int nI = 0; nI < 25; nI++){
     cool.add(new Asteroid());
   }
 }
