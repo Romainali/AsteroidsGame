@@ -12,7 +12,7 @@ class Asteroid extends Floater{
   xCorners = new int[corners];
   yCorners = new int[corners];
   
-  int baseSize = 15;
+  int baseSize = 8;
 
     for (int i = 0; i < corners; i++) {
       double angle = i * (360 / corners);           
