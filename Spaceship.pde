@@ -24,6 +24,8 @@ int s =15;
    xCorners[11] = s*2; yCorners[11] = 0;   
 
   }
+
+
 public void setDirection( double d){myPointDirection = d;}
 public void setXspeed(double x){ myXspeed = x;}
 public void setYspeed( double y) { myYspeed = y;}
@@ -31,7 +33,10 @@ public void setPosition( double x, double y){
   myCenterX =x; 
  myCenterY = y ;
  }
-public double getX(){return myCenterX;}
-public double getY(){return myCenterY;}
+public double getX(){ return myCenterX;} 
+public double getY(){ return myCenterY;}
+public double getXspeed(){ return myXspeed;}
+public double getYspeed(){ return myYspeed;}
+public double getPointDirection(){ return myPointDirection;}
 
 }
